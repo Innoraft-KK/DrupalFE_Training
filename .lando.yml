@@ -1,0 +1,4 @@
+name: drupalfe_training
+recipe: drupal10
+config:
+  webroot: web
