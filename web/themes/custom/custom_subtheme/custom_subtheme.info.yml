@@ -4,11 +4,7 @@ description: 'custom subtheme using bootstrap5 as base'
 core_version_requirement: ^9 || ^10
 base theme: bootstrap5
 libraries:
-  - bootstrap5/base
-  - bootstrap5/messages
-  - core/normalize
-  - bootstrap5/bootstrap5-js-latest
-  - bootstrap5/global-styling
+  - custom_subtheme/global-styling
 
 regions:
   header: Header
