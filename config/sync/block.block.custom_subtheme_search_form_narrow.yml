@@ -10,8 +10,8 @@ _core:
   default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
 id: custom_subtheme_search_form_narrow
 theme: custom_subtheme
-region: header
-weight: -4
+region: footer
+weight: -7
 provider: null
 plugin: search_form_block
 settings:
