@@ -17,7 +17,7 @@ regions:
   nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
   breadcrumb: Breadcrumbs
   content: 'Main content'
+  sub_content: 'Sub Content'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
   footer: Footer
-
