@@ -1,0 +1,23 @@
+name: custom subtheme
+type: theme
+description: 'custom subtheme using bootstrap5 as base'
+core_version_requirement: ^9 || ^10
+base theme: bootstrap5
+libraries:
+  - bootstrap5/base
+  - bootstrap5/messages
+  - core/normalize
+  - bootstrap5/bootstrap5-js-latest
+  - bootstrap5/global-styling
+
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+
