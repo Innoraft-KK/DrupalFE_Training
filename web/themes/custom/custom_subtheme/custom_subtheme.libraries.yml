@@ -12,3 +12,8 @@ todo:
     - core/jquery
     - core/drupal
     - core/once
+
+custom-render:
+  css:
+    theme:
+      css/custom-render.css: {}

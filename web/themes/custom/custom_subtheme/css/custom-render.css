@@ -1,0 +1,25 @@
+p {
+  color: red !important;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.custom-render-color__item {
+  font-weight: bold;
+  list-style: none;
+}
+.custom-render-color__item li {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.custom-render-color__item__red {
+  color: #ff0000;
+}
+.custom-render-color__item__green {
+  color: #00ff00;
+}
+.custom-render-color__item__blue {
+  color: #0000ff;
+}/*# sourceMappingURL=custom-render.css.map */
