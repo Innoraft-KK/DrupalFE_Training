@@ -5,7 +5,9 @@ core_version_requirement: ^9 || ^10
 base theme: bootstrap5
 libraries:
   - custom_subtheme/global-styling
-
+  - custom_subtheme/todo
+  - custom_subtheme/custom-render
+  
 regions:
   header: Header
   nav_branding: 'Navigation branding region'

@@ -1,0 +1,25 @@
+@use '../partials/importer' as *;
+
+.custom-render-color {
+  &__item {
+   
+    font-weight: bold;
+    list-style: none;
+
+    li {
+      @include pad-marBottom;
+    }
+
+    &__red {
+      color: $red;
+    }
+
+    &__green {
+      color: $green;
+    }
+
+    &__blue {
+     color: $blue;
+    }
+  }
+}

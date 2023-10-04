@@ -1,0 +1,38 @@
+@use '../partials/importer' as *;
+.todo {
+    &-input-add{
+        display: flex;
+        flex-direction: row;
+    }
+    &-items {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    &-list {
+        margin: 0 auto;
+    }
+
+    &-input {
+        width: 100%;
+        @include pad-marBottom;
+        
+    }
+
+    &-add-button {
+        background-color: #000;
+        color: #fff;
+        @include pad-marBottom;
+    }
+
+    &-item {
+        display: flex;
+        align-items: center;
+        @include pad-marBottom;
+        border: 1px solid #ccc;
+    }
+
+    &-text {
+        flex: 1;
+    }
+}

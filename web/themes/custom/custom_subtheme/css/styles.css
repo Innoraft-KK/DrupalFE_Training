@@ -16,6 +16,41 @@ article.contextual-region div:nth-child(3) {
   gap: 50px;
 }
 
-/* @import 'components/header.scss';
-@import 'components/footer.scss';
-@import 'components/section.scss'; *//*# sourceMappingURL=styles.css.map */
+#block-custom-subtheme-primary-local-tasks {
+  display: none;
+}
+
+.todo-input-add {
+  display: flex;
+  flex-direction: row;
+}
+.todo-items {
+  list-style-type: none;
+  padding: 0;
+}
+.todo-list {
+  margin: 0 auto;
+}
+.todo-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.todo-add-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+.todo-text {
+  flex: 1;
+}
+
+/*@import 'components/section.scss'; *//*# sourceMappingURL=styles.css.map */

@@ -2,3 +2,18 @@ global-styling:
   css:
     theme:
       css/styles.css: {}
+todo:
+  css:
+    theme:
+      css/styles.css: {}
+  js:
+    js/todo.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/once
+
+custom-render:
+  css:
+    theme:
+      css/custom-render.css: {}
